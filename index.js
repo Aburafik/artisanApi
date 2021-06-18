@@ -5,6 +5,7 @@ const express = require('express');
 
 const myData = require('./data');
 const mydata = require('./artisans/user');
+let port = process.env.PORT || 3000;
 const app = express();
 
 
@@ -12,7 +13,7 @@ const app = express();
 
 
 // Assign route
-app.use('/', (req, res, next) => {
+app.get('/', (req, res, next) => {
     const filters = req.query;
     const filteredUsers = myData.filter(user => {
         let isValid = true;
@@ -25,7 +26,7 @@ app.use('/', (req, res, next) => {
     res.send(filteredUsers);
 });
 
-app.use('/', (req, res, next) => {
+app.get('/', (req, res, next) => {
     const filters = req.query;
     const filteredUsers = cap.filter(user => {
         let isValid = true;
@@ -39,7 +40,7 @@ app.use('/', (req, res, next) => {
 });
 
 // Start server on PORT 5000
-app.listen(5000, () => {
+app.listen(port, () => {
     console.log('Server started!');
     // console.log()
 });
