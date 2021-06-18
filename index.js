@@ -4,8 +4,8 @@
 const express = require('express');
 
 const myData = require('./data');
-const mydata = require('./artisans/user');
-let port = process.env.PORT || 3000;
+const art = require('./user');
+let port = process.env.PORT || 8000;
 const app = express();
 
 
@@ -26,9 +26,9 @@ app.get('/', (req, res, next) => {
     res.send(filteredUsers);
 });
 
-app.get('/', (req, res, next) => {
+app.get('/user', (req, res, next) => {
     const filters = req.query;
-    const filteredUsers = cap.filter(user => {
+    const filteredUsers = art.filter(user => {
         let isValid = true;
         for (key in filters) {
             console.log(key, user[key], filters[key]);

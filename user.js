@@ -1,5 +1,5 @@
 const cap = [
-    { id: 1, name: 'Alan ', age: 21, city: 'New York' },
+    { id: 1, name: 'Rafik ', age: 21, city: 'New York' },
     { id: 2, name: 'Steve', age: 106, city: 'Chicago' },
     { id: 3, name: 'Tom ', age: 47, city: 'Detroit' },
     { id: 4, name: 'Ryan', age: 16, city: 'New York' },
