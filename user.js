@@ -1,14 +1,14 @@
 const cap = [
-    { name: 'Rafik ', age: 21, city: 'New York', contact: "0551143980" },
-    { name: 'Steve', age: 106, city: 'Chicago', contact: "0551143980" },
-    { name: 'Tom ', age: 47, city: 'Detroit', contact: "0551143980" },
-    { name: 'Ryan', age: 16, city: 'New York', contact: "0551143980" },
-    { name: 'Jack ', age: 31, city: 'New York', contact: "0551143980" },
-    { name: 'Clark', age: 34, city: 'Metropolis', contact: "0551143980" },
-    { name: 'Bruce Wayne', age: 21, city: 'Gotham', contact: "0551143980" },
-    { name: 'Tim Drake', age: 21, city: 'Gotham', contact: "0551143980" },
-    { name: 'Jimmy Olsen', age: 21, city: 'Metropolis', contact: "0551143980" },
-    { name: 'Ryan Burns', age: 21, city: 'New York', contact: "0551143980" },
+    { name: 'Rafik ', location: 'Tamale', contact: 0551143 },
+    { name: 'Steve', location: 'Yendi', contact: 05511430 },
+    { name: 'Tom ', location: 'Kumasi', contact: 05511430 },
+    { name: 'Ryan', location: 'Accra', contact: 055110 },
+    { name: 'Jack ', location: 'Ho', contact: 05511430 },
+    { name: 'Clark', location: 'Sunyani', contact: 0551140000 },
+    { name: 'Bruce Wayne', location: 'Kumasi', contact: 05577777777 },
+    { name: 'Tim Drake', location: 'Bolga', contact: 05566666666666 },
+    { name: 'Jimmy Olsen', location: 'Adisadel', contact: 05511 },
+    { name: 'Ryan Burns', location: 'Wa', contact: 0551 },
 ];
 
 
